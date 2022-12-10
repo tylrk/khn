@@ -1,6 +1,13 @@
 import React from "react";
-import { ReactDOM } from "react";
+import '../App.css';
 
-export default function Navbar() {
-
+const Navbar: React.FC = () => {
+    return (
+        <nav /* className="navbar">
+            <ul className="navbar-nav"></ul> */>
+            <h1>TKHN</h1>
+        </nav>
+    )
 };
+
+export default Navbar;
