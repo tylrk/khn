@@ -1,23 +1,21 @@
 .navbar {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
   background-color: rgb(33, 29, 58);
+  padding-bottom: 30px;
+  justify-content: center;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.title { 
+  font-size: 35px; 
   color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 .toggle {
-  display: flex;
-  justify-content: flex-start;
+  
 }
 
 .chart {
