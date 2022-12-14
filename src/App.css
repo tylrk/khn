@@ -1,21 +1,22 @@
+.app {
+  height: 100vh;
+}
+
 .navbar {
   display: flex;
   align-items: center;
-  background-color: rgb(33, 29, 58);
-  padding-bottom: 30px;
+  background-color: #192734;
+  padding: 15px;
   justify-content: center;
 }
 
 .title { 
-  font-size: 35px; 
+  font-size: 40px; 
   color: white;
   margin: auto;
   justify-content: center;
   text-align: center;
-}
-
-.toggle {
-  
+  text-shadow: 0 0 3px #fff;
 }
 
 .chart {

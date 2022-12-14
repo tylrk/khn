@@ -14,12 +14,12 @@ const App: React.FC = (props) => {
   }
 
   return (
-    <>
+    <div className="app" style={{ backgroundColor: theme === "dark" ? "#22303C" : "#fff" }}>
       <Navbar theme={theme} changeTheme={changeTheme} />
       <div className="chart">
         <AdvancedRealTimeChart theme={theme} />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { DarkModeToggle, Mode  } from "@anatoliygatt/dark-mode-toggle";
+import { DarkModeToggle, Mode } from "@anatoliygatt/dark-mode-toggle";
 
 interface NavbarProps {
   theme: Mode;
@@ -11,8 +11,8 @@ const Navbar: React.FC<NavbarProps> = (props) => {
   return (
     <nav className="navbar">
       <div className="title">KHN</div>
-       <span
-       className="toggle"> <DarkModeToggle
+      <div>
+        <DarkModeToggle
           mode={props.theme}
           dark="Dark"
           light="Light"
@@ -27,7 +27,8 @@ const Navbar: React.FC<NavbarProps> = (props) => {
           activeThumbColor="#e2e8f0"
           onChange={props.changeTheme}
           ariaLabel="Toggle color scheme"
-        /></span>
+        />
+      </div>
     </nav>
   );
 };
