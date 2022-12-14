@@ -5,7 +5,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #192734;
+  background-color: #15202B;
   padding: 15px;
   justify-content: center;
 }
@@ -16,7 +16,7 @@
   margin: auto;
   justify-content: center;
   text-align: center;
-  text-shadow: 0 0 3px #fff;
+  font-weight: 600;
 }
 
 .chart {
