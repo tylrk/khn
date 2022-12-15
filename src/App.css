@@ -19,6 +19,34 @@
   font-weight: 600;
 }
 
+.menu a {
+  color: white;
+}
+
+.menu ul{
+  list-style: none;
+}
+
 .chart {
   margin-top: 100px;
+}
+
+.menu-img {
+  margin-left: 10px;
+  color: white;
+}
+
+.menu-img:hover {
+  color: #1e90ff;
+}
+
+.menu-items {
+  list-style: none;
+  color: white;
+  padding-left: 15px;
+}
+
+.item-img {
+  padding-right: 8px;
+  
 }
