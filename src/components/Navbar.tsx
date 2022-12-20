@@ -1,9 +1,7 @@
 import React from "react";
 import "../App.css";
 import { DarkModeToggle, Mode } from "@anatoliygatt/dark-mode-toggle";
-import { AiOutlineMenu, AiOutlineHome } from 'react-icons/ai';
-import { MenuItems } from "./Menu";
-import { ClassNames } from "@emotion/react";
+import { AiOutlineMenu } from 'react-icons/ai';
 
 interface NavbarProps {
   theme: Mode;
@@ -15,11 +13,6 @@ const Navbar: React.FC<NavbarProps> = (props) => {
     <nav className="navbar">
         <div className="menu-container">
           <div className="menu-img"><AiOutlineMenu size="30" /></div>
-          <div>
-            <ul>
-                <MenuItems img={<AiOutlineHome className="item-img" />} text={"Home"}/>
-            </ul>
-          </div>
       </div>
       <div className="title">KHN</div>
       <div>

@@ -34,6 +34,7 @@
 .menu-img {
   margin-left: 10px;
   color: white;
+  cursor: pointer;
 }
 
 .menu-img:hover {
@@ -46,7 +47,37 @@
   padding-left: 15px;
 }
 
+.menu-dropdown {
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  background-color: black;
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.menu-dropdown::before{
+  content: '';
+  margin-left: auto;
+  background: red;
+  transform: rotate(45deg);
+}
+
+.menu-dropdown.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms ease;
+}
+
+.menu-dropdown.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 500ms ease;
+}
+
 .item-img {
   padding-right: 8px;
-  
 }
